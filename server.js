@@ -5,10 +5,9 @@ require('colors')
 require('dotenv').config();
 
 const connectDB = require('./config/db.js');
-const multer = require("multer");
 
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 // Calling database
 connectDB();
